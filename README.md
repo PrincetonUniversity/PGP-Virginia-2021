@@ -4,13 +4,13 @@ Collection of files and scripts to score and grade new districting maps in VA
 
 ## Contents
 - Shapefile: shapefile of VA precincts with attached census and election data
-  -VA_precs_all_data20.shp
+  - VA_precs_all_data20.shp
 
 - Aggregation Scripts: folder for all scripts that can attach a plan to the shapefile
-  -VA_add_new_plan_cong.py: script for adding VA congressional plans	
-  -VA_add_new_plan_hod.py: script for adding VA House of Delegates plans
-  -VA_add_new_plan_ss.py: script for adding VA state senate plans
-	
+  - VA_add_new_plan_cong.py: script for adding VA congressional plans
+  - VA_add_new_plan_hod.py: script for adding VA House of Delegates plans
+  - VA_add_new_plan_ss.py: script for adding VA state senate plans
+
 - Plans: folder for all plans you want to score
   - archive: a folder for plans that have already been added
 
@@ -39,9 +39,9 @@ You will want to run through this once per chamber, and may have to do it every
 time a new plan is out you want to score. The /archive folder is useful for keeping old maps.
 
 When you finish the VA_add_new_plan.py script, it will output a file called
-VA_precs_{chamber}_scoring20.shp where the chamber will be cong, senate, or house.
+VA_precs_<chamber>_scoring20.shp where the chamber will be cong, senate, or house.
 This is an input for scoring scripts. Once you have
-the VA_precs_{chamber}_scoring20.shp file, open up the scoring script that corresponds to the chamber.
+the VA_precs_<chamber>_scoring20.shp file, open up the scoring script that corresponds to the chamber.
 Fill in the information in the "# ----- CODE TO CHANGE FOR EACH RUN OF CODE" section.
 The district_column_names refers to the column names of your district plans in the shapefile.
 Make sure you have a folder on your local computer where the resulting json will be saved in the folder_to_store variable.
