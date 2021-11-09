@@ -55,70 +55,75 @@ that the plan would receive for competitiveness, partisan fairness, geography as
 
 ## Metadata
 
-'GEOID20': Voting district identifier
-'NAMELSAD20': 2020 Census name and the translated legal/statistical
+- 'GEOID20': Voting district identifier
+- 'NAMELSAD20': 2020 Census name and the translated legal/statistical
 area description for voting district
-'NAME20': 2020 Census voting district name
-'VTDI20': 2020 Census voting district indicator
-'VTDST20': 2020 Census voting district code
-'COUNTYFP20': 2020 Census county FIPS code
-'STATEFP20': 2020 Census state FIPS code
-'LSAD20': 2020 Census legal/statistical area description code for
+- 'NAME20': 2020 Census voting district name
+- 'VTDI20': 2020 Census voting district indicator
+- 'VTDST20': 2020 Census voting district code
+- 'COUNTYFP20': 2020 Census county FIPS code
+- 'STATEFP20': 2020 Census state FIPS code
+- 'LSAD20': 2020 Census legal/statistical area description code for
 voting districts
-'MTFCC20': MAF/TIGER feature class code (G5240)
-'FUNCSTAT20': 2020 Census functional status
-'ALAND20': 2020 Census land area
-'AWATER20': 2020 Census water area
-'INTPTLAT20': 2020 Census latitude of the internal point
-'INTPTLON20': 2020 Census longitude of the internal point
-'CD116': 116th congressional district FIPS code
-'SLDU18': Current state legislative district upper chamber code
-'SLDL18': Current state legislative district lower chamber code
-'C12Dist': 2012 Enacted Congressional district number
-'C16Dist': 2016 Enacted Congressional district number
-'S11Dist': 2011 Enacted State Senate district number
-'H11Dist': 2011 Enacted House of Delegates district number
-'H19Dist': 2019 Enacted House of Delegates district number
-'TOT': total population
-'WH_A': white alone
-'BL_A': black or african american alone
-'NA_A': american indian and alaska native alone
-'AS_A': asian alone
-'PC_A': native hawaiian and other pacific islander alone
-'SO_A': some other race alone
-'TMO': population of two or more races
-'TOT_H': total hispanic population
-'TOT_NH': total nonhispanic population
-'NHWH_A': nonhispanic white alone
-'NHBL_A': nonhispanic black alone
-'NHNA_A': nonhispanic american indian and alaska native alone
-'NHAS_A': nonhispanic asian alone
-'NHPC_A': nonhispanic native hawaiian and other pacific islander alone
-'NHSO_A': nonhispanic some other race alone
-'NHTMO': nonhispanic population of two or more races
-'TOT_VAP': total voting age population
-'WH_A_VAP': white alone voting age population
-'BL_A_VAP': black or african american alone voting age population
-'NA_A_VAP': american indian and alaska native alone voting age population
-'AS_A_VAP': asian alone voting age population
-'PC_A_VAP': native hawaiian and other pacific islander alone voting age population
-'SO_A_VAP': some other race alone voting age population
-'TMO_VAP': population of two or more races voting age population
-'TOT_HVAP': total hispanic voting age population
-'TOT_NHVAP': total nonhispanic voting age population
-'NHWH_A_VAP': nonhispanic white alone voting age population
-'NHBL_A_VAP': nonhispanic black or african american alone voting age population
-'NHNA_A_VAP': nonhispanic american indian and alaska native alone voting age population
-'NHAS_A_VAP': nonhispanic asian alone voting age population
-'NHPC_A_VAP': nonhispanic native hawaiian and other pacific islander alonevoting age population
-'NHSO_A_VAP': nonhispanic some other race alone voting age population
-'NHTMO_VAP': nonhispanic population of two or more races voting age population
-'G16DPRS': Number of votes for 2016 Democratic presidential candidate
-'G16RPRS': Number of votes for 2016 Republican presidential candidate
-'G16OPRS': Number of votes for 2016 other presidential candidates
-'G17DGOV': Number of votes for 2017 Democratic gubernatorial candidate
-'G17RGOV': Number of votes for 2017 Republican gubernatorial candidate
-'G17OGOV': Number of votes for 2017 other gubernatorial candidates
-'G18DSEN': Number of votes for 2018 Democratic senate candidate
-'G18RSEN': Number of votes for 2018 Republican senate candidate
-'G18OSEN': Number of votes for 2018 other senate candidates
+- 'MTFCC20': MAF/TIGER feature class code (G5240)
+- 'FUNCSTAT20': 2020 Census functional status
+- 'ALAND20': 2020 Census land area
+- 'AWATER20': 2020 Census water area
+- 'INTPTLAT20': 2020 Census latitude of the internal point
+- 'INTPTLON20': 2020 Census longitude of the internal point
+- 'CD116': 116th congressional district FIPS code
+- 'SLDU18': Current state legislative district upper chamber code
+- 'SLDL18': Current state legislative district lower chamber code
+- 'C12Dist': 2012 Enacted Congressional district number
+- 'C16Dist': 2016 Enacted Congressional district number
+- 'S11Dist': 2011 Enacted State Senate district number
+- 'H11Dist': 2011 Enacted House of Delegates district number
+- 'H19Dist': 2019 Enacted House of Delegates district number
+- 'TOT': total population
+- 'WH_A': white alone
+- 'BL_A': black or african american alone
+- 'NA_A': american indian and alaska native alone
+- 'AS_A': asian alone
+- 'PC_A': native hawaiian and other pacific islander alone
+- 'SO_A': some other race alone
+- 'TMO': population of two or more races
+- 'TOT_H': total hispanic population
+- 'TOT_NH': total nonhispanic population
+- 'NHWH_A': nonhispanic white alone
+- 'NHBL_A': nonhispanic black alone
+- 'NHNA_A': nonhispanic american indian and alaska native alone
+- 'NHAS_A': nonhispanic asian alone
+- 'NHPC_A': nonhispanic native hawaiian and other pacific islander alone
+- 'NHSO_A': nonhispanic some other race alone
+- 'NHTMO': nonhispanic population of two or more races
+- 'TOT_VAP': total voting age population
+- 'WH_A_VAP': white alone voting age population
+- 'BL_A_VAP': black or african american alone voting age population
+- 'NA_A_VAP': american indian and alaska native alone voting age population
+- 'AS_A_VAP': asian alone voting age population
+- 'PC_A_VAP': native hawaiian and other pacific islander alone voting age population
+- 'SO_A_VAP': some other race alone voting age population
+- 'TMO_VAP': population of two or more races voting age population
+- 'TOT_HVAP': total hispanic voting age population
+- 'TOT_NHVAP': total nonhispanic voting age population
+- 'NHWH_A_VAP': nonhispanic white alone voting age population
+- 'NHBL_A_VAP': nonhispanic black or african american alone voting age population
+- 'NHNA_A_VAP': nonhispanic american indian and alaska native alone voting age population
+- 'NHAS_A_VAP': nonhispanic asian alone voting age population
+- 'NHPC_A_VAP': nonhispanic native hawaiian and other pacific islander alonevoting age population
+- 'NHSO_A_VAP': nonhispanic some other race alone voting age population
+- 'NHTMO_VAP': nonhispanic population of two or more races voting age population
+- 'G16DPRS': Number of votes for 2016 Democratic presidential candidate
+- 'G16RPRS': Number of votes for 2016 Republican presidential candidate
+- 'G16OPRS': Number of votes for 2016 other presidential candidates
+- 'G17DGOV': Number of votes for 2017 Democratic gubernatorial candidate
+- 'G17RGOV': Number of votes for 2017 Republican gubernatorial candidate
+- 'G17OGOV': Number of votes for 2017 other gubernatorial candidates
+- 'G18DSEN': Number of votes for 2018 Democratic senate candidate
+- 'G18RSEN': Number of votes for 2018 Republican senate candidate
+- 'G18OSEN': Number of votes for 2018 other senate candidates
+
+
+## Sources
+
+Precinct-level election data was downloaded from [MGGG](https://github.com/mggg-states/VA-shapefiles).  Population and demographic comes from the U.S. Census Bureau, and does not include prison adjusted population.
