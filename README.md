@@ -3,6 +3,8 @@
 Collection of files and scripts to score and grade new districting maps in VA
 
 ## Contents
+- PGP grading system for Virginia metrics November 2021.pdf: Scoring system description for VA specific maps.
+
 - Shapefile: shapefile of VA precincts with attached census and election data
   - VA_precs_all_data20.shp
 
