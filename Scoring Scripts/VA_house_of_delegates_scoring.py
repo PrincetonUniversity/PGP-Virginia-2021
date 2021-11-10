@@ -32,7 +32,7 @@ class CountySplit(Enum):
 
 # THIS IS THE PATH TO THE SHAPEFILE WITH THE ATTACHED PLAN
 # FOR EXAMPLE IT MIGHT LOOK LIKE:
-# path_to_shapefile = "/Users/ari/Documents/PGP/Dashboard/Virginia/VA_precs_house_scoring20/VA_precs_house_scoring20.shp"
+# path_to_shapefile = "/Users/Documents/Virginia/VA_precs_house_scoring20/VA_precs_house_scoring20.shp"
 path_to_shapefile = 
 
 # THIS IS THE NAMES OF THE DISTRICT ASSIGNMENT COLUMNS THAT YOU WANT TO SCORE
@@ -45,7 +45,7 @@ district_column_names =
 
 # THIS IS THE PATH TO THE FOLDER THAT YOU WANT TO STORE THE RESULTING JSON
 # FOR EXAMPLE IT MIGHT LOOK LIKE:
-# folder_to_store = "/Users/ari/Documents/PGP/Dashboard/Virginia/"
+# folder_to_store = "/Users/Documents/Virginia/"
 folder_to_store = 
 os.chdir(folder_to_store)
 
